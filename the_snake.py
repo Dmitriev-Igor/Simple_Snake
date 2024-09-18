@@ -113,7 +113,6 @@ class Snake(GameObject):
             self.direction = self.next_direction
 
 
-
 def handle_keys(event, snake):
     """Обрабатывает нажатия клавиш для управления змейкой."""
     if event.key == pygame.K_UP:
