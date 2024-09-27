@@ -76,7 +76,7 @@ class Snake(GameObject):
     def __init__(self, position=CENTER_POSITION, body_color=SNAKE_COLOR):
         super().__init__(position, body_color=body_color)
         self.reset()
-        self.direction = (1, 0)
+        self.direction = RIGHT
 
     def reset(self):
         """Сбрасывает состояние змейки."""
